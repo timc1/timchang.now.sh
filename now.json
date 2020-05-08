@@ -1,0 +1,20 @@
+
+{
+  "name": "timcchang-redirect",
+  "alias": "timchang",
+  "version": 2,
+  "redirects": [
+    {
+      "source": "/buildanevent",
+      "destination": "https://timcchang.com/buildanevent"
+    },
+    {
+      "source": "/threejs-globe",
+      "destination": "https://timcchang.com/threejs-globe"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://timcchang.com"
+    }
+  ]
+}

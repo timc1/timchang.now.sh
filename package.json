@@ -1,0 +1,16 @@
+{
+  "name": "tim",
+  "description": "URL redirect to timcchang.com",
+  "version": "1.0.0",
+  "repository": "git@github.com:timc1/timchang.now.sh.git",
+  "author": "Tim Chang <timchang.tcc@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "deploy": "now",
+    "deploy:prod": "now --prod"
+  },
+  "devDependencies": {
+    "now": "^18.0.0"
+  }
+}
